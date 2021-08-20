@@ -1,0 +1,19 @@
+{
+  "name": "Custodiet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "chrome extension that watches a server status report",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Greg Paye <gregpaye@yahoo.com>",
+  "license": "",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
